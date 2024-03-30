@@ -28,6 +28,35 @@ header {
     linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
 }
 
+a {
+  color: rgb(54, 54, 59);
+}
+
+main {
+  padding: 30px 0;
+}
+
+.app-city {
+  margin: 0;
+  font-size: 39px;
+  line-height: 48px;
+}
+
+.app-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(54, 54, 59);
+}
+
+.app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-details strong {
+  color: rgb(54, 54, 59);
+}
+
 .search-form-input {
   background-color: linear-gradient(
     180.3deg,
@@ -57,4 +86,5 @@ footer {
     linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
   text-align: center;
   font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
 }
